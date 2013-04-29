@@ -10,4 +10,24 @@
           android:layout_height="match_parent"
           android:name="com.google.android.gms.maps.SupportMapFragment"/>
 
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="187dp"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="61dp"
+        android:layout_marginTop="73dp"
+        android:text="Button" />
+
 </RelativeLayout>
